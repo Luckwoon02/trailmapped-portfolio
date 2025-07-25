@@ -47,11 +47,48 @@ export const About = () => {
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                 className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full blur-xl opacity-30"
               />
-              <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                  <div className="text-8xl font-bold gradient-text">KG</div>
-                </div>
-              </div>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl"
+              >
+                <motion.img
+                  src="/lovable-uploads/31ba6bc0-0aed-4201-882f-f13633a09ab2.png"
+                  alt="Kaushik Ghosh - Backend Developer"
+                  className="w-full h-full object-cover"
+                  initial={{ scale: 1.1 }}
+                  animate={{ scale: 1 }}
+                  transition={{ duration: 0.8 }}
+                  whileHover={{ scale: 1.1 }}
+                />
+                
+                {/* Floating animation elements */}
+                <motion.div
+                  animate={{ 
+                    y: [-10, 10, -10],
+                    opacity: [0.3, 0.8, 0.3]
+                  }}
+                  transition={{ 
+                    duration: 3, 
+                    repeat: Infinity, 
+                    ease: "easeInOut" 
+                  }}
+                  className="absolute -top-4 -right-4 w-8 h-8 bg-primary/30 rounded-full blur-sm"
+                />
+                <motion.div
+                  animate={{ 
+                    y: [10, -10, 10],
+                    opacity: [0.4, 0.9, 0.4]
+                  }}
+                  transition={{ 
+                    duration: 4, 
+                    repeat: Infinity, 
+                    ease: "easeInOut",
+                    delay: 1
+                  }}
+                  className="absolute -bottom-6 -left-6 w-12 h-12 bg-accent/30 rounded-full blur-sm"
+                />
+              </motion.div>
             </div>
           </motion.div>
 

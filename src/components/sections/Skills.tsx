@@ -11,21 +11,20 @@ export const Skills = () => {
     {
       title: 'Programming Languages',
       skills: [
-        { name: 'Java', level: 90 },
+        { name: 'Java', level: 60 },
         { name: 'Python', level: 80 },
-        { name: 'JavaScript', level: 85 },
-        { name: 'C', level: 75 },
+        { name: 'JavaScript', level: 60 },
         { name: 'SQL', level: 80 },
       ]
     },
     {
       title: 'Frontend Development',
       skills: [
-        { name: 'React.js', level: 85 },
-        { name: 'HTML5', level: 95 },
+        { name: 'React.js', level: 80 },
+        { name: 'HTML5', level: 80 },
         { name: 'CSS3', level: 90 },
         { name: 'Tailwind CSS', level: 85 },
-        { name: 'JavaScript ES6+', level: 85 },
+        { name: 'Axios', level: 75 },
       ]
     },
     {
@@ -45,7 +44,6 @@ export const Skills = () => {
         { name: 'Git & GitHub', level: 90 },
         { name: 'VS Code', level: 95 },
         { name: 'Postman', level: 85 },
-        { name: 'Shell Scripting', level: 70 },
       ]
     }
   ];
@@ -160,7 +158,7 @@ export const Skills = () => {
           
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Axios', 'JSON', 'STS (Spring Tool Suite)', 'REST API Development',
+              'JSON', 'STS (Spring Tool Suite)', 'REST API Development',
               'Database Design', 'Web Architecture', 'Problem Solving',
               'Team Collaboration', 'Code Review', 'Testing'
             ].map((tech, index) => (

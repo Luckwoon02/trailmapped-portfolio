@@ -21,13 +21,13 @@ export const Projects = () => {
       category: 'Full Stack'
     },
     {
-      title: 'Task Management API',
-      description: 'RESTful API for task management with user authentication, CRUD operations, and role-based access control. Built with Spring Boot and documented with Swagger.',
-      tech: ['Spring Boot', 'REST API', 'MySQL', 'JWT', 'Swagger'],
+      title: 'Lost and Found Portal',
+      description: 'Full-stack web application for lost and found items management. Features item posting, search functionality, user authentication, and real-time notifications. Built with Java Spring Boot backend and React frontend.',
+      tech: ['Java Spring Boot', 'React.js', 'MySQL', 'Axios', 'REST API'],
       liveUrl: '#',
       codeUrl: '#',
       icon: Database,
-      category: 'Backend'
+      category: 'Full Stack'
     },
     {
       title: 'Personal Portfolio Website',

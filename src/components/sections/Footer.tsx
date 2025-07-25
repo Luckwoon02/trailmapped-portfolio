@@ -9,19 +9,19 @@ export const Footer = () => {
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/kaushikghosh',
+      url: 'https://github.com/Luckwoon02',
       hoverColor: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/kaushikghosh',
+      url: 'https://www.linkedin.com/in/kaushik-g-0946a5223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
       hoverColor: 'hover:text-blue-600'
     },
     {
       name: 'Instagram (@trailmapper)',
       icon: Instagram,
-      url: 'https://instagram.com/trailmapper',
+      url: 'https://www.instagram.com/trailmapper02/?igsh=bmtzejQwY3QwbTJw&utm_source=qr#',
       hoverColor: 'hover:text-pink-600'
     }
   ];

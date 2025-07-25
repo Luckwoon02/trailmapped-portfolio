@@ -27,14 +27,14 @@ export const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'kaushikghosh@example.com',
-      href: 'mailto:kaushikghosh@example.com'
+      value: 'kaushikicloud02@gmail.com',
+      href: 'mailto:kaushikicloud02@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210'
+      value: '+91 7001946179',
+      href: 'tel:+917001946179'
     },
     {
       icon: MapPin,

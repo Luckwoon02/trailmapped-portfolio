@@ -12,15 +12,6 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Web Application',
-      description: 'Full-stack e-commerce platform built with Spring Boot backend and React frontend. Features include user authentication, product catalog, shopping cart, and order management.',
-      tech: ['Spring Boot', 'React.js', 'MySQL', 'JPA', 'Hibernate'],
-      liveUrl: '#',
-      codeUrl: '#',
-      icon: Globe,
-      category: 'Full Stack'
-    },
-    {
       title: 'Lost and Found Portal',
       description: 'Full-stack web application for lost and found items management. Features item posting, search functionality, user authentication, and real-time notifications. Built with Java Spring Boot backend and React frontend.',
       tech: ['Java Spring Boot', 'React.js', 'MySQL', 'Axios', 'REST API'],
@@ -37,33 +28,6 @@ export const Projects = () => {
       codeUrl: '#',
       icon: Code,
       category: 'Frontend'
-    },
-    {
-      title: 'Student Management System',
-      description: 'Desktop application for managing student records, grades, and attendance. Features data validation, search functionality, and report generation.',
-      tech: ['Java', 'Swing', 'MySQL', 'JDBC'],
-      liveUrl: '#',
-      codeUrl: '#',
-      icon: Database,
-      category: 'Desktop'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'Interactive weather dashboard displaying current conditions and forecasts. Integrates with external weather APIs and features responsive design.',
-      tech: ['React.js', 'Weather API', 'Chart.js', 'CSS3'],
-      liveUrl: '#',
-      codeUrl: '#',
-      icon: Globe,
-      category: 'Frontend'
-    },
-    {
-      title: 'Inventory Management System',
-      description: 'Backend system for inventory management with real-time stock tracking, supplier management, and automated alerts for low stock items.',
-      tech: ['Spring Boot', 'MySQL', 'JPA', 'REST API'],
-      liveUrl: '#',
-      codeUrl: '#',
-      icon: Database,
-      category: 'Backend'
     }
   ];
 
